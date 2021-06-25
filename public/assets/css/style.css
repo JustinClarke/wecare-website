@@ -20,6 +20,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+@media (max-width: 450px) {
+  .extra-pad{
+    margin-top: 800px;
+  }
+  #about .container{
+    padding: 0px 50px;
+  }
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
