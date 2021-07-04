@@ -1,3 +1,42 @@
+
+/* table */
+
+table {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border-bottom: 1px solid rgb(238, 238, 238);
+  padding: 1rem 0rem 1rem 1rem;
+  font-size: 20px;
+}
+
+.ts{
+  color: #424242;
+}
+
+.top{
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+@media (max-width: 450px) {
+  table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  td, th {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
