@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 450px) {
   .extra-pad{
-    margin-top: 800px;
+    margin-top: 900px;
   }
   #about .container{
     padding: 0px 50px;
